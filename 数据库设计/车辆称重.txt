@@ -1,0 +1,8 @@
+INSERT INTO tvm.users
+(Id, Name, Pwd, AddTime)
+VALUES(1, '系统管理员', '111111', now() );
+
+
+INSERT INTO tvm.car
+(PlateNumber, CarWeight, FloatWeight, DriverName, DrivingCode, AddTime)
+VALUES('渝DK1577', 200, 5, '司机名称', '驾照编号', now());
