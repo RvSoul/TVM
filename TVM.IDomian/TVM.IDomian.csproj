@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TVM.DTO\TVM.DTO.csproj" />
+    <ProjectReference Include="..\TVM.Model\TVM.Model.csproj" />
+  </ItemGroup>
+
+</Project>
